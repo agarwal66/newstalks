@@ -7,7 +7,7 @@ import News from "./components/News";
 
 const App = () => {
   const pageSize = 5;
-  const apiKey = process.env.REACT_APP_NEWS_API;
+  const apiKey = "5dc8d9606b5d4692ba62d6ea4ff9210b";
   const [progress, setProgress] = useState(0);
 
   return (
